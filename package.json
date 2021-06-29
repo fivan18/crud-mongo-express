@@ -1,0 +1,11 @@
+{
+  "name": "crud-mongo-express",
+  "version": "1.0.0",
+  "description": "API with mongodb and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ivan Guzman",
+  "license": "ISC"
+}
