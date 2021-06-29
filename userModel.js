@@ -23,8 +23,11 @@ var userSchema = mongoose.Schema({
         default: Date.now
     }
 });
-// Export Bio Model
+
+// export user model
 var User = module.exports = mongoose.model('user', userSchema);
+
+// add get method to user model
 module.exports.get = function (callback, limit) {
    User.find(callback).limit(limit); 
 }
